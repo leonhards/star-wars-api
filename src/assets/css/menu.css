@@ -1,0 +1,64 @@
+.tabs {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  max-width: 64rem;
+}
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  margin: 0;
+}
+
+.tab-content {
+  background: #fff;
+  padding: 0 15px 45px;
+}
+  
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: #c4c3ba;
+  background: #f8f7ed;
+  box-shadow: inset 0 -2px 3px hsla(54,42%,64.6%,.06);
+}
+
+.tab-list-item.mobileNav {
+  padding: 0;
+}
+
+.tab-list-active {
+  color: #28324d;
+  background-color: white;
+  border: 0 none;
+  box-shadow: inset 0 2px 0 #f05451;
+}
+
+.tab-list .icon {
+  display: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .tab-list {border-bottom: 0;}
+  .tab-list li {display: none;}
+  .tab-list .tab-list-item.mobileNav {padding: 18px;}
+  .tab-list .mobileNav, .tab-list .mobileNav > * {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tab-list.responsive {position: relative;}
+  .tab-list.responsive li {
+    display: block;
+    text-align: left;
+  }
+  .tab-list.responsive .tab-list-active {border: 0;}
+}
