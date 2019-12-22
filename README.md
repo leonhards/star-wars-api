@@ -1,4 +1,4 @@
-# ReactJs Star Wars API
+# ReactJS Star Wars API
 
 Star Wars API (SWAPI) is the resources for Star Wars data. You can visit the web [here](https://www.swapi.co).
 
