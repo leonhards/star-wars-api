@@ -49,8 +49,8 @@ Explore:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/react-swapi-explorer.git
-cd react-swapi-explorer
+git clone https://github.com/leonhards/star-wars-api.git
+cd star-wars-api
 ```
 
 ### 2. Install Dependencies
