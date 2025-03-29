@@ -43,6 +43,7 @@ Explore:
 
 - **Node.js** (<a href="https://nodejs.org/">Install Guide</a>)
 - **npm** (<a href="https://www.npmjs.com/get-npm">Install Guide</a>)
+- **Git** (<a href="https://git-scm.com/">Install Guide</a>)
 
 ## 🛠️ Installation & Setup
 
